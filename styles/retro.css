@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.navigation__bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+    background-color: #1985A1;
+    width: 100%;
+    height: 4.6875rem;
+}
+
+.navigation__bar-right {
+    display: flex;
+}
+
+.navigation__bar-right a {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+a {
+    color: #C5C3C6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #A7816C;
+}
+
+p {
+    color: #46494C;
+}
+
+h2 {
+    color: #2E3A44;
+}
+
+body {
+    background-color: #DCDCDD;
+}
+
+.store-sony, .store-xbox {
+    padding: 1rem;
+}
+
+.store-sony__items, .store-xbox__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.store-sony__item-image, .store-xbox__item-image {
+    width: 15rem;
+    height: 15rem;
+}
+
+
+.store-sony__item-info, .store-xbox__item-info {
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.store-sony__item-name, .store-xbox__item-name {
+    margin-bottom: 0.5rem;
+}
