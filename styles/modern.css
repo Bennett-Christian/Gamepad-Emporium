@@ -54,6 +54,10 @@ body {
     padding: 1rem;
 }
 
+.store-sony__title, .store-xbox__title {
+    padding-bottom: 2rem;
+}
+
 .store-sony__items, .store-xbox__items {
     display: flex;
     flex-wrap: wrap;

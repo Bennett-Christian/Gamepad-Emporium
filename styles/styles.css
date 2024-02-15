@@ -12,6 +12,7 @@
     background-image: url("../media/black_and_white_galaxy_unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 92vh;
     width: 100%;
 }
@@ -26,8 +27,7 @@
     color: #C5C3C6;
     background-color: #1985A1;
     font-size: 1.5rem;
-    height: 7vh;
-    width: 18vw;
+    height: 8%;
     margin-top: 5rem;
     border: 1px solid #46494C;
     border-radius: 0.625rem;
@@ -46,6 +46,14 @@
 header {
     position: sticky;
     top: 0;
+}
+
+.navigation a {
+    color: #C5C3C6;
+}
+
+.navigation a:hover {
+    color: #A7816C;
 }
 
 .navigation__bar {
@@ -67,13 +75,9 @@ header {
     padding-right: 1rem;
 }
 
-a {
-    color: #C5C3C6;
-    text-decoration: none;
-}
 
-a:hover {
-    color: #A7816C;
+a {
+    text-decoration: none;
 }
 
 p {
