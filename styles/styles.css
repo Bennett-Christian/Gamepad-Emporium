@@ -76,6 +76,10 @@ header {
     padding-right: 1rem;
 }
 
+.navigation__bar-right a:visited {
+    color: green;
+}
+
 a {
     text-decoration: none;
 }
@@ -92,18 +96,18 @@ body {
     background-color: #DCDCDD;
 }
 
-#scroll-bottom {
+footer {
     /* margin-top: 9.375rem; */
     margin-top: 100rem;
     text-align: center;
 }
 
-#scroll-bottom a {
+footer a {
     color: #343638;
 }
 
-#scroll-bottom a:hover {
-    color: #D59C7D
+footer a:hover {
+    color: #D59C7D;
 }
 
 #github a:visited {
