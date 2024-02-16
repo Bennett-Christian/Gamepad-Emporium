@@ -27,7 +27,7 @@
     color: #C5C3C6;
     background-color: #1985A1;
     font-size: 1.5rem;
-    height: 8%;
+    height: 40%;
     margin-top: 5rem;
     border: 1px solid #46494C;
     border-radius: 0.625rem;
@@ -74,7 +74,6 @@ header {
     padding-left: 1rem;
     padding-right: 1rem;
 }
-
 
 a {
     text-decoration: none;
