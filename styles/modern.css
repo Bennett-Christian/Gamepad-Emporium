@@ -76,6 +76,20 @@ body {
     border-radius: 0.625rem;
 }
 
+.store__banner {
+    width: 15rem;
+    height: 15rem;
+    border: 1px solid #46494C;
+    border-radius: 0.625rem;
+}
+
+.store__banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
 .store-sony__item-info,
 .store-xbox__item-info,
 .store-nint__item-info {
