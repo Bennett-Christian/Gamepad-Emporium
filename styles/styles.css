@@ -19,6 +19,7 @@
     width: 100%;
 }
 
+
 .hero__title {
     font-size: 4rem;
     color: #C5C3C6;
@@ -72,6 +73,9 @@ header {
     background-color: #1985A1;
     width: 100%;
     height: 8vh;
+    font-size: 1.5rem;
+    text-align: center;
+    overflow: hidden;
 }
 
 .navigation__bar-right {
@@ -79,8 +83,8 @@ header {
 }
 
 .navigation__bar-right a {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 a {
@@ -89,10 +93,11 @@ a {
 
 p {
     color: #46494C;
-    font-size: .9375rem;
+    font-size: 1.1rem;
 }
 
-h1, h2 {
+h1,
+h2 {
     color: #2E3A44;
 }
 
@@ -103,6 +108,7 @@ h2 {
 
 body {
     background-color: #DCDCDD;
+    height: 100%;
 }
 
 .browse {
@@ -118,17 +124,25 @@ body {
     align-self: center;
 }
 
-#disclaimer {
+.browse__image:nth-of-type(2),
+h2:nth-of-type(2) {
+    margin-top: 3rem;
+}
+
+#disclaimer,
+p:nth-of-type(2) {
     margin-top: 1.5rem;
 }
 
-h2:nth-of-type(2) {
-    margin-top: 10rem;
+.footer__bottom {
+    min-height: 100%;
+    position: relative;
 }
 
 footer {
     margin-top: 15rem;
-    position: relative;
+    position: absolute;
+    width: 100%;
     bottom: 0;
     padding: 0;
     text-align: center;
@@ -136,19 +150,23 @@ footer {
     background-color: #094765;
 }
 
+
 footer p {
     padding-top: 0.2rem;
     color: #A29FA3;
 }
 
-footer a:link, #disclaimer a:link {
+footer a:link,
+#disclaimer a:link {
     color: #C5C3C6;
 }
 
-footer a:visited, #disclaimer a:visited {
+footer a:visited,
+#disclaimer a:visited {
     color: #DB4A16;
 }
 
-footer a:hover, #disclaimer a:hover {
+footer a:hover,
+#disclaimer a:hover {
     color: #D59C7D;
 }

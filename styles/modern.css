@@ -45,34 +45,40 @@ body {
     background-color: #DCDCDD;
 }
 
-.store-sony, .store-xbox {
+.store-sony,
+.store-xbox {
     padding: 1rem;
 }
 
-.store-sony__title, .store-xbox__title {
+.store-sony__title,
+.store-xbox__title {
     padding-bottom: 2.2rem;
 }
 
-.store-sony__items, .store-xbox__items {
+.store-sony__items,
+.store-xbox__items {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
 }
 
-.store-sony__item-image, .store-xbox__item-image {
+.store-sony__item-image,
+.store-xbox__item-image {
     width: 15rem;
     height: 15rem;
     border: 1px solid #46494C;
     border-radius: 0.625rem;
 }
 
-.store-sony__item-info, .store-xbox__item-info {
+.store-sony__item-info,
+.store-xbox__item-info {
     text-align: center;
     margin: 0.5rem 0;
 }
 
-.store-sony__item-name, .store-xbox__item-name {
+.store-sony__item-name,
+.store-xbox__item-name {
     margin-bottom: 0.5rem;
 }
 
