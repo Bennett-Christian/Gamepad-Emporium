@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: "Lora", Arial, serif, sans-serif;
 }
 
 .hero {
@@ -76,10 +77,6 @@ header {
     padding-right: 1rem;
 }
 
-.navigation__bar-right a:visited {
-    color: green;
-}
-
 a {
     text-decoration: none;
 }
@@ -98,18 +95,27 @@ body {
 
 footer {
     /* margin-top: 9.375rem; */
+    position: relative;
+    padding: 0;
     margin-top: 100rem;
     text-align: center;
+    height: 2.8rem;
+    background-color: #0B4857;
 }
 
-footer a {
-    color: #343638;
+footer p {
+    padding-top: 0.2rem;
+    color: #A29FA3;
+}
+
+footer a:link {
+    color: #C5C3C6;
+}
+
+footer a:visited {
+    color: green;
 }
 
 footer a:hover {
     color: #D59C7D;
-}
-
-#github a:visited {
-    color: green;
 }
