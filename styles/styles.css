@@ -164,8 +164,11 @@ footer p {
     color: #A29FA3;
 }
 
-footer a:link,
 #disclaimer a:link {
+    color: #094765;
+}
+
+footer a:link {
     color: #C5C3C6;
 }
 
