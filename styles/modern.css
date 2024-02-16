@@ -45,6 +45,10 @@ body {
     background-color: #DCDCDD;
 }
 
+main {
+    margin: 1rem 5rem;
+}
+
 .store-sony,
 .store-xbox,
 .store-nint,
@@ -92,6 +96,14 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
+}
+
+.store-sony__explain,
+.store-xbox__explain,
+.store-nint__explain,
+.store-assorted__explain {
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 .store-sony__item-info,
