@@ -30,16 +30,20 @@
     color: #C5C3C6;
     background-color: #1985A1;
     font-size: 1.5rem;
-    height: 40%;
-    margin-top: 5rem;
+    height: 2.9rem;
     padding: 0 0.9rem;
     border: 1px solid #46494C;
     border-radius: 0.625rem;
 }
 
+.hero a {
+    margin-top: 5rem;
+}
+
 .hero__scroll:hover {
     color: #D59C7D;
     background-color: #11586A;
+    cursor: pointer;
 }
 
 .hero__scroll:active {
