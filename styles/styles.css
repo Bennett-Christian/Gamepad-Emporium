@@ -19,7 +19,6 @@
     width: 100%;
 }
 
-
 .hero__title {
     font-size: 4rem;
     color: #C5C3C6;
@@ -95,7 +94,8 @@ a {
     text-decoration: none;
 }
 
-p {
+p,
+li {
     color: #46494C;
     font-size: 1.1rem;
 }
@@ -108,6 +108,10 @@ h2 {
 h2 {
     margin-top: 2rem;
     font-size: 2rem;
+}
+
+main {
+    padding-bottom: 10rem;
 }
 
 body {
@@ -148,6 +152,7 @@ footer {
     position: absolute;
     width: 100%;
     bottom: 0;
+    left: 0;
     padding: 0;
     text-align: center;
     height: fit-content;
