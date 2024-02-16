@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
     font-family: "Lora", Arial, serif, sans-serif;
+    scroll-behavior: smooth;
 }
 
 .hero {
