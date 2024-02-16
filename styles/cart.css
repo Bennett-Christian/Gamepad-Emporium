@@ -74,8 +74,8 @@ button {
     background-color: #1985A1;
     font-size: 1.2rem;
     height: 40%;
-    margin-top: 0.5rem;
-    padding: 0 0.9rem;
+    margin: 0.5rem 0.5rem;
+    padding: .3125rem 0.9rem;
     border: 1px solid #46494C;
     border-radius: 0.625rem;
 }
@@ -94,7 +94,7 @@ button:active {
 .cart__checkout-image {
     width: 17rem;
     height: 16rem;
-    margin-top: 5rem;
+    margin: 5rem .3125rem .3125rem .3125rem;
     border: 1px solid #46494C;
     border-radius: 0.625rem;
 }
