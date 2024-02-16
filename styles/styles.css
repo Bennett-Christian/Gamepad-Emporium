@@ -46,6 +46,11 @@
     background-color: #246A11;
 }
 
+#scroll-bottom {
+    position: relative;
+    top: 0rem;
+}
+
 header {
     position: sticky;
     top: 0;
@@ -84,21 +89,38 @@ a {
 
 p {
     color: #46494C;
+    font-size: 1.2rem;
 }
 
-h1 {
+h1, h2 {
     color: #2E3A44;
+}
+
+h2 {
+    font-size: 2rem;
 }
 
 body {
     background-color: #DCDCDD;
 }
 
+.browse {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 5rem;
+}
+
+.browse__image {
+    width: 30rem;
+    height: 30rem;
+    margin: 2rem 0rem;
+    align-self: center;
+}
+
 footer {
-    /* margin-top: 9.375rem; */
+    margin-top: 30rem;
     position: relative;
     padding: 0;
-    margin-top: 100rem;
     text-align: center;
     height: 2.8rem;
     background-color: #0B4857;
